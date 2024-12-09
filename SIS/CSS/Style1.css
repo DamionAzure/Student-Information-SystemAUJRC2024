@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+}
+
+div button {
+    color: #333;
+    margin-left: 5%;
+    background-color: aliceblue;
+}
+
+header {
+    margin: 1%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    top: 0;
+    width: 90%;
+    border: solid #333;
+    border-radius: 20px;
+    display: flex; /* Make the header a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-content: center; /* Center the content vertically */
+    flex-direction: column;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+header button {
+    margin: 10px 20%;
+    padding: 12px 50px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#grade11-options, #grade12-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#grade11-options li, #grade12-options li {
+    margin: 10px 0;
+}
+
+#grade11-options a, #grade12-options a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    display: block;
+}
+
+#grade11-options a:hover, #grade12-options a:hover {
+    background-color: #ccc;
+}
